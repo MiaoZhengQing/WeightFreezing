@@ -4,6 +4,8 @@ Submitted to Neural Networks, Uploaded to Arxiv.
 # Description
 Source code for the paper: Weight-Freezing: A Regularization Approach for Fully Connected Layers with an Application in EEG Classification
 
+Due to my current inability to afford high open-access fees, the final version of this work may not be open-access. I apologize for any inconvenience caused.
+
 ## Important Statement
 This is my first work on designing a transformer specifically for EEG. The preliminary experiments for a related project have been conducted, but due to the pressing deadline of my doctoral thesis, I have had to temporarily pause this aspect of my work. After October 2023, I hope to continue researching this topic if given the opportunity (That's when I might visit the University of Vienna). 
 My doctoral research focuses on the deep integration of artificial neural networks and neuroscience, advocating for the use of lightweight artificial neural network technologies to enhance EEG decoding. It is possible that my doctoral thesis and published papers may not have Chinese versions. However, there is a high-quality Chinese translation of the LMDA-Net paper available on WeChat official account (脑机接口社区), which interested readers can search for.
