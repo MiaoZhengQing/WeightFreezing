@@ -1,8 +1,9 @@
 # WeightFreezing
+Submitted to Neural Networks, Uploaded to Arxiv.
 
 # Description
 Source code for the paper: Weight-Freezing: A Regularization Approach for Fully Connected Layers with an Application in EEG Classification
-Submitted to Neural Networks
+
 
 # Requirements
 - Python == 3.6 or higher
