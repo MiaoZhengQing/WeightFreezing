@@ -42,9 +42,9 @@ The incorporation of Weight-Freezing not only simplifies the deployment of ANN m
 
 
 # Paper Citation
-If you use this code in a scientific publication, please cite us as:  
-% TSFF-Net  
-Miao Z, Zhao M. Time-space-frequency feature Fusion for 3-channel motor imagery classification[J]. arXiv preprint arXiv:2304.01461, 2023.
+If you use this idea and code in a scientific publication, please cite us as:  
+% Weight-Freezing  
+Miao Z, Zhao M. Weight Freezing: A Regularization Approach for Fully Connected Layers with an Application in EEG Classification[J]. arXiv preprint arXiv:2306.05775, 2023.
 
 % LMDA-Net  
 Miao Z, Zhang X, Zhao M, et al. LMDA-Net: A lightweight multi-dimensional attention network for general EEG-based brain-computer interface paradigms and interpretability[J]. arXiv preprint arXiv:2303.16407, 2023.
