@@ -1,5 +1,5 @@
 # WeightFreezing
-Submitted to Neural Networks, Uploaded to Arxiv.
+Submitted to Neural Networks, [Arxiv version](https://arxiv.org/pdf/2306.05775.pdf).
 
 # Description
 Source code for the paper: Weight-Freezing: A Regularization Approach for Fully Connected Layers with an Application in EEG Classification
