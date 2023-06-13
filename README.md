@@ -53,12 +53,13 @@ Miao Z, Zhang X, Zhao M, et al. LMDA-Net: A lightweight multi-dimensional attent
 Miao Z, Zhang X, Menon C, et al. Priming Cross-Session Motor Imagery Classification with A Universal Deep Domain Adaptation Framework[J]. arXiv preprint arXiv:2202.09559, 2022.
 
 ```
-% TSFF-Net
-@article{miao2023time,
-  title={Time-space-frequency feature Fusion for 3-channel motor imagery classification},
+% Weight-Freezing
+@article{miao2023weight,
+  title={Weight Freezing: A Regularization Approach for Fully Connected Layers with an Application in EEG Classification},
   author={Miao, Zhengqing and Zhao, Meirong},
-  journal={arXiv preprint arXiv:2304.01461},
-  year={2023}
+  journal={arXiv preprint arXiv:2306.05775},
+  year={2023},
+  doi={https://doi.org/10.48550/arXiv.2306.05775},
 }
 
 % LMDA
@@ -74,6 +75,15 @@ url = {https://www.sciencedirect.com/science/article/pii/S1053811923003609},
 author = {Zhengqing Miao and Meirong Zhao and Xin Zhang and Dong Ming},
 keywords = {Attention, Brain-computer interface (BCI), Electroencephalography (EEG), Model interpretability, Neural networks},
 abstract = {Electroencephalography (EEG)-based brain-computer interfaces (BCIs) pose a challenge for decoding due to their low spatial resolution and signal-to-noise ratio. Typically, EEG-based recognition of activities and states involves the use of prior neuroscience knowledge to generate quantitative EEG features, which may limit BCI performance. Although neural network-based methods can effectively extract features, they often encounter issues such as poor generalization across datasets, high predicting volatility, and low model interpretability. To address these limitations, we propose a novel lightweight multi-dimensional attention network, called LMDA-Net. By incorporating two novel attention modules designed specifically for EEG signals, the channel attention module and the depth attention module, LMDA-Net is able to effectively integrate features from multiple dimensions, resulting in improved classification performance across various BCI tasks. LMDA-Net was evaluated on four high-impact public datasets, including motor imagery (MI) and P300-Speller, and was compared with other representative models. The experimental results demonstrate that LMDA-Net outperforms other representative methods in terms of classification accuracy and predicting volatility, achieving the highest accuracy in all datasets within 300 training epochs. Ablation experiments further confirm the effectiveness of the channel attention module and the depth attention module. To facilitate an in-depth understanding of the features extracted by LMDA-Net, we propose class-specific neural network feature interpretability algorithms that are suitable for evoked responses and endogenous activities. By mapping the output of the specific layer of LMDA-Net to the time or spatial domain through class activation maps, the resulting feature visualizations can provide interpretable analysis and establish connections with EEG time-spatial analysis in neuroscience. In summary, LMDA-Net shows great potential as a general decoding model for various EEG tasks.}
+}
+
+% TSFF-Net
+@article{miao2023time,
+  title={Time-space-frequency feature Fusion for 3-channel motor imagery classification},
+  author={Miao, Zhengqing and Zhao, Meirong},
+  journal={arXiv preprint arXiv:2304.01461},
+  year={2023},
+  doi={https://doi.org/10.48550/arXiv.2304.01461},
 }
 
 % SDDA
