@@ -22,7 +22,7 @@ class WeightFreezing(nn.Module):
         self.register_buffer('shared_mask', mask)
         self.register_buffer('independent_mask', ~mask)
 
-        self.multiple = 0
+        self.multiple = multiple
 
     def forward(self, x, shared_weight):
         combined_weight = torch.where(self.shared_mask, shared_weight*self.multiple, self.weight.t())
